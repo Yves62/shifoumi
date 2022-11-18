@@ -24,14 +24,14 @@ function shifumiGame() {
         switch (choice.value.toLowerCase()) {
             case 'pierre':
                 if (responseComputer === 'ciseau') {
-                    result.innerHTML = `Bravo !! vous avez gagne 😀 </br> L'ordinateur avait choisi ${responseComputer}`;
+                    result.innerHTML = `Bravo !! vous avez gagné 😀 </br> L'ordinateur avait choisi ${responseComputer}`;
                 } else {
                     result.innerHTML = `Vous avez perdu 😢  </br> L'ordinateur avais choisi ${responseComputer}`
                 }
                 break;
             case 'ciseau':
                 if (responseComputer === 'feuille') {
-                    result.innerHTML = `Bravo !! vous avez gagne 😀 </br> L'ordinateur avait choisi ${responseComputer}`;
+                    result.innerHTML = `Bravo !! vous avez gagné 😀 </br> L'ordinateur avait choisi ${responseComputer}`;
                 }
                 else {
                     result.innerHTML = `Vous avez perdu 😢 </br> L'ordinateur avais choisi ${responseComputer}`
@@ -39,7 +39,7 @@ function shifumiGame() {
                 break;
             case 'feuille':
                 if (responseComputer === 'pierre') {
-                    result.innerHTML = `Bravo !! vous avez gagne gagne 😀 </br> L'ordinateur avait choisi ${responseComputer}`;
+                    result.innerHTML = `Bravo !! vous avez gagné 😀 </br> L'ordinateur avait choisi ${responseComputer}`;
                 }
                 else {
                     result.innerHTML = `Vous avez perdu 😢 </br> L'ordinateur avait choisi ${responseComputer}`
