@@ -18,10 +18,10 @@ function generateResponseRandom() {
 generateResponseRandom()
 
 function shifumiGame() {
-    if (choice.value === responseComputer) {
+    if (choice.value.toLowerCase() === responseComputer) {
         result.textContent = 'Egalité 😝 !! Retentez votre chance 😀'
     } else {
-        switch (choice.value) {
+        switch (choice.value.toLowerCase()) {
             case 'pierre':
                 if (responseComputer === 'ciseau') {
                     result.innerHTML = `Bravo !! vous avez gagne 😀 </br> L'ordinateur avait choisi ${responseComputer}`;
